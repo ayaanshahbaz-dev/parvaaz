@@ -2,41 +2,20 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
-export function ParvaazLogoMark({ className = 'w-7 h-7' }: { className?: string }) {
+export function ParvaazLogoMark({ className = 'w-8 h-8' }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 40 40"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      <defs>
-        <linearGradient id="parvaaz-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#00F0FF" />
-          <stop offset="100%" stopColor="#0072FF" />
-        </linearGradient>
-        <filter id="cyan-glow" x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur stdDeviation="2" result="blur" />
-          <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
-      </defs>
-      {/* Dynamic winged geometric icon */}
-      <path
-        d="M6 26L18 10L24 16L12 28L6 26Z"
-        fill="url(#parvaaz-grad)"
-        filter="url(#cyan-glow)"
+    <span className={`relative inline-flex items-center justify-center shrink-0 ${className}`}>
+      <Image
+        src="/parvaaz-logo.png"
+        alt="Parvaaz Logo"
+        width={36}
+        height={36}
+        className="w-full h-full object-contain drop-shadow-[0_0_12px_rgba(34,211,238,0.45)]"
+        priority
       />
-      <path
-        d="M16 28L28 14L34 19L22 31L16 28Z"
-        fill="#00E5FF"
-        fillOpacity="0.85"
-      />
-      <path
-        d="M24 23L31 16L34 18L27 25L24 23Z"
-        fill="#38BDF8"
-      />
-    </svg>
+    </span>
   );
 }
 
