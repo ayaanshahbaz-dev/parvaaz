@@ -35,11 +35,11 @@ export default function ShowreelHero() {
       <div className="absolute top-1/3 left-1/4 -translate-x-1/2 w-[600px] h-[500px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute top-1/2 right-10 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[140px] pointer-events-none" />
 
-      <div className="max-w-[1240px] mx-auto px-5 md:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
           
-          {/* Left Column: Headlines, Copy & Actions (7 Cols) */}
-          <div className="lg:col-span-7 flex flex-col items-start z-10">
+          {/* Left Column: Headlines, Copy & Actions */}
+          <div className="lg:col-span-6 flex flex-col items-start z-10 lg:pr-2">
             {/* Category Eyebrow Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/50 border border-cyan-500/30 mb-6 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
@@ -49,7 +49,7 @@ export default function ShowreelHero() {
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-[42px] sm:text-[54px] lg:text-[64px] leading-[1.06] tracking-[-0.03em] font-bold text-white">
+            <h1 className="text-[40px] sm:text-[50px] lg:text-[58px] leading-[1.08] tracking-[-0.03em] font-bold text-white">
               We Build What{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-cyan-200 drop-shadow-[0_0_25px_rgba(34,211,238,0.3)]">
                 Moves Business
@@ -58,7 +58,7 @@ export default function ShowreelHero() {
             </h1>
 
             {/* Paragraph Description */}
-            <p className="mt-6 text-[17px] md:text-[19px] leading-[1.65] text-slate-300 max-w-[560px]">
+            <p className="mt-6 text-[16px] md:text-[18px] leading-[1.65] text-slate-300 max-w-[520px]">
               Parvaaz combines AI, software, and creative growth services to help businesses work smarter and stand out in a competitive world.
             </p>
 
@@ -81,7 +81,7 @@ export default function ShowreelHero() {
             </div>
 
             {/* Studio Capabilities Micro-Tags */}
-            <div className="mt-10 pt-8 border-t border-white/[0.08] w-full max-w-[560px] flex flex-wrap items-center gap-y-2 gap-x-6 text-[13px] text-slate-400">
+            <div className="mt-10 pt-8 border-t border-white/[0.08] w-full max-w-[520px] flex flex-wrap items-center gap-y-2 gap-x-6 text-[13px] text-slate-400">
               <div className="flex items-center gap-2">
                 <span className="text-cyan-400">✦</span>
                 <span>AI Agents & Workflows</span>
@@ -97,15 +97,15 @@ export default function ShowreelHero() {
             </div>
           </div>
 
-          {/* Right Column: Vertical Showcase Reel (5 Cols) */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-end z-10">
-            <div className="relative w-full max-w-[340px] sm:max-w-[370px]">
+          {/* Right Column: Landscape Showcase Reel */}
+          <div className="lg:col-span-6 flex justify-center lg:justify-end z-10 w-full">
+            <div className="relative w-full max-w-[620px]">
               
               {/* Ambient Glow Aura Behind the Reel Frame */}
-              <div className="absolute -inset-3 bg-gradient-to-tr from-cyan-500/25 via-sky-500/20 to-blue-600/20 rounded-[38px] blur-xl opacity-75 -z-10" />
+              <div className="absolute -inset-3 bg-gradient-to-tr from-cyan-500/25 via-sky-500/20 to-blue-600/20 rounded-[32px] blur-xl opacity-75 -z-10" />
 
-              {/* Vertical Card Frame (Native 9:16 Aspect Ratio) */}
-              <div className="relative w-full aspect-[9/16] max-h-[640px] rounded-[32px] overflow-hidden border border-cyan-500/35 bg-[#060B17] shadow-[0_25px_60px_rgba(0,0,0,0.85),0_0_35px_rgba(34,211,238,0.2)]">
+              {/* Landscape Card Frame (16:9 / 16:10 Aspect Ratio) */}
+              <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-[24px] sm:rounded-[28px] overflow-hidden border border-cyan-500/35 bg-[#060B17] shadow-[0_25px_60px_rgba(0,0,0,0.85),0_0_35px_rgba(34,211,238,0.2)]">
                 
                 {/* Continuous Running Video - Never Stops */}
                 <video
@@ -121,10 +121,10 @@ export default function ShowreelHero() {
                 />
 
                 {/* Subtle Cinematic Vignette Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-slate-950/40 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-slate-950/40 pointer-events-none" />
 
                 {/* Top HUD: Live Indicator & Audio Toggle */}
-                <div className="absolute top-5 left-5 right-5 flex items-center justify-between z-20">
+                <div className="absolute top-4 left-4 right-4 sm:top-5 sm:left-5 sm:right-5 flex items-center justify-between z-20">
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/15">
                     <span className="relative flex h-2 w-2">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
@@ -159,7 +159,7 @@ export default function ShowreelHero() {
                 </div>
 
                 {/* Bottom HUD: Reel Title & Status */}
-                <div className="absolute bottom-5 left-5 right-5 z-20 flex flex-col pointer-events-none">
+                <div className="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-5 z-20 flex flex-col pointer-events-none">
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-[11px] font-semibold tracking-widest text-cyan-400 uppercase">
                       CONTINUOUS PREVIEW
