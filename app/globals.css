@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-color: #050811;
+    --text-color: #F8FAFC;
+    --muted-color: #94A3B8;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --accent-color: #00E5FF;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: #050811;
+    color: #F8FAFC;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #050811;
+    color: #F8FAFC;
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #00E5FF;
+    outline-offset: 2px;
+  }
+}
+
+/* Custom glow and backdrop effects */
+.glow-cyan-sm {
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.25);
+}
+
+.glow-cyan-md {
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.35);
+}
+
+.glow-cyan-lg {
+  box-shadow: 0 0 45px rgba(0, 229, 255, 0.45);
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, rgba(14, 23, 42, 0.75) 0%, rgba(9, 14, 26, 0.9) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.12);
+}
+
+.card-gradient:hover {
+  border-color: rgba(0, 229, 255, 0.35);
+}
+
+.cta-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(0, 229, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 229, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.scroll-fade-init {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+
+.scroll-fade-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-fade-init {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
