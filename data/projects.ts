@@ -924,7 +924,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-1",
-    title: "Image Ad 1 – Anua",
+    title: "Anua",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -945,7 +945,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-2",
-    title: "Image Ad 2 – Brand",
+    title: "Brand",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -965,7 +965,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-3",
-    title: "Image Ad 3 – Burger",
+    title: "Burger",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -987,7 +987,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-4",
-    title: "Image Ad 4 – Cake",
+    title: "Cake",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1008,7 +1008,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-5",
-    title: "Image Ad 5 – Chocolate Cream",
+    title: "Chocolate Cream",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1028,7 +1028,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-6",
-    title: "Image Ad 6 – Crispy Fried Chicken Feast",
+    title: "Crispy Fried Chicken Feast",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1051,7 +1051,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-7",
-    title: "Image Ad 7 – Fruitien Juice",
+    title: "Fruitien Juice",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1071,7 +1071,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-8",
-    title: "Image Ad 8 – Head Phone",
+    title: "Head Phone",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1093,7 +1093,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-9",
-    title: "Image Ad 9 – Himalaya",
+    title: "Himalaya",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1113,7 +1113,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-10",
-    title: "Image Ad 10 – KitKat",
+    title: "KitKat",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1135,7 +1135,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-11",
-    title: "Image Ad 11 – Lakme",
+    title: "Lakme",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1156,7 +1156,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-12",
-    title: "Image Ad 12 – Lumora",
+    title: "Lumora",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1176,7 +1176,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-13",
-    title: "Image Ad 13 – Midnight Glow Night Serum Ad",
+    title: "Midnight Glow Night Serum Ad",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1196,7 +1196,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-14",
-    title: "Image Ad 14 – Minsa Glow Sunscreen",
+    title: "Minsa Glow Sunscreen",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1216,7 +1216,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-15",
-    title: "Image Ad 15 – Nescafe",
+    title: "Nescafe",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1236,7 +1236,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-16",
-    title: "Image Ad 16 – Parvaaz AI Chatbot",
+    title: "Parvaaz AI Chatbot",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1257,7 +1257,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-17",
-    title: "Image Ad 17 – Pearl Oasis Restaurant",
+    title: "Pearl Oasis Restaurant",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1278,7 +1278,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-18",
-    title: "Image Ad 18 – Pizza",
+    title: "Pizza",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1301,7 +1301,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-19",
-    title: "Image Ad 19 – Pringles",
+    title: "Pringles",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1323,7 +1323,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-20",
-    title: "Image Ad 20 – Rest, Repair, Rejuvenate Serum",
+    title: "Rest, Repair, Rejuvenate Serum",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1343,7 +1343,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-21",
-    title: "Image Ad 21 – Rolex",
+    title: "Rolex",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1364,7 +1364,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-22",
-    title: "Image Ad 22 – Thesis",
+    title: "Thesis",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1386,7 +1386,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-23",
-    title: "Image Ad 23 – Tomno",
+    title: "Tomno",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1406,7 +1406,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-24",
-    title: "Image Ad 24 – Voyage",
+    title: "Voyage",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1426,7 +1426,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-25",
-    title: "Image Ad 25 – Wake Up to Brighter Skin",
+    title: "Wake Up to Brighter Skin",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",
@@ -1446,7 +1446,7 @@ export const projects: Project[] = [
   },
   {
     slug: "image-ad-26",
-    title: "Image Ad 26 – Water Bottle",
+    title: "Water Bottle",
     resultLine: "Creative commercial product advertisement and campaign visual design.",
     category: "videos-ads",
     industry: "E-commerce",

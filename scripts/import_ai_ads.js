@@ -116,7 +116,7 @@ async function run() {
 
     imageProjectsData.push({
       slug,
-      title: `Image Ad ${adNum} – ${groupName}`,
+      title: groupName,
       resultLine: `Creative commercial product advertisement and campaign visual design.`,
       category: 'videos-ads',
       industry: 'E-commerce',
