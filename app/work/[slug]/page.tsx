@@ -72,10 +72,19 @@ export default async function ProjectPage({ params }: PageProps) {
 
         {/* 1. Project Title and a One-Line Result */}
         <header className="mb-10">
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex flex-wrap items-center gap-3 mb-4">
             <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-cyan-400 select-none">
               {categoryName}
             </span>
+            {project.secondaryCategory && (
+              <>
+                <span className="text-slate-600">•</span>
+                <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-sky-400 select-none">
+                  {categories.find((c) => c.slug === project.secondaryCategory)?.name ||
+                    project.secondaryCategory}
+                </span>
+              </>
+            )}
             <span className="text-slate-600">•</span>
             <span className="text-[12px] font-mono text-slate-400 uppercase tracking-wider">
               {project.industry}

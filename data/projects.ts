@@ -10,6 +10,7 @@ export interface Project {
   title: string;
   resultLine: string;
   category: CategorySlug;
+  secondaryCategory?: CategorySlug;
   industry: Industry;
   clientLabel: string;
   clientPublic: boolean;
@@ -32,6 +33,7 @@ export const projects: Project[] = [
     title: 'AURA – AI-Powered Business Consultant & Booking Agent',
     resultLine: 'Grounded RAG consultant answering visitor queries, qualifying needs, and booking consultations with CRM sync.',
     category: 'n8n',
+    secondaryCategory: 'ai-agents',
     industry: 'Finance',
     clientLabel: 'AI Business Automation',
     clientPublic: true,

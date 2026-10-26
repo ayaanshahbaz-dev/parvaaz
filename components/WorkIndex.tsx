@@ -30,7 +30,9 @@ export default function WorkIndex() {
   };
 
   const filteredProjects = selectedCategory
-    ? projects.filter((p) => p.category === selectedCategory)
+    ? projects.filter(
+        (p) => p.category === selectedCategory || p.secondaryCategory === selectedCategory
+      )
     : projects;
 
   const sortedProjects = [...filteredProjects].sort((a, b) => a.order - b.order);
@@ -54,7 +56,9 @@ export default function WorkIndex() {
 
         {/* Individual Category Pills */}
         {categories.map((cat) => {
-          const count = projects.filter((p) => p.category === cat.slug).length;
+          const count = projects.filter(
+            (p) => p.category === cat.slug || p.secondaryCategory === cat.slug
+          ).length;
           const isActive = selectedCategory === cat.slug;
 
           return (
