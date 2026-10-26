@@ -38,8 +38,7 @@ export interface SiteStats {
 // TODO: replace with your booking URL (e.g. Cal.com or Calendly)
 export const bookingUrl = 'https://cal.com/TODO';
 
-// TODO: replace with your contact email
-export const contactEmail = 'TODO@parvaaz.com';
+export const contactEmail = 'parwaazcompany@gmail.com';
 
 export interface SocialLink {
   name: string;

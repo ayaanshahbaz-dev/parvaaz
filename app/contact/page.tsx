@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { bookingUrl, socialLinks } from '@/data/site';
+import { bookingUrl, contactEmail, socialLinks } from '@/data/site';
 
 export default function ContactPage() {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -163,9 +163,15 @@ export default function ContactPage() {
                 href={bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-full py-3.5 rounded-full text-sm font-semibold border border-cyan-400/80 text-cyan-300 hover:bg-cyan-400 hover:text-slate-950 transition-all duration-200 shadow-[0_0_15px_rgba(0,229,255,0.2)]"
+                className="inline-flex items-center justify-center w-full py-3.5 rounded-full text-sm font-semibold border border-cyan-400/80 text-cyan-300 hover:bg-cyan-400 hover:text-slate-950 transition-all duration-200 shadow-[0_0_15px_rgba(0,229,255,0.2)] mb-3"
               >
                 Schedule Free Strategy Call ↗
+              </a>
+              <a
+                href={`mailto:${contactEmail}`}
+                className="inline-flex items-center justify-center w-full py-3 rounded-full text-xs font-medium text-slate-300 hover:text-white bg-white/[0.03] border border-white/10 hover:border-slate-500 transition-all"
+              >
+                ✉ Email directly: {contactEmail}
               </a>
             </div>
 

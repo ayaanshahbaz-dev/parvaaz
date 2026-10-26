@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ParvaazLogoMark } from './Nav';
-import { socialLinks } from '@/data/site';
+import { contactEmail, socialLinks } from '@/data/site';
 
 function SocialIcon({ icon }: { icon: string }) {
   switch (icon) {
@@ -56,9 +56,13 @@ export default function Footer() {
 
             <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-slate-600" />
 
-            <span className="text-[14px] text-slate-400">
-              AI. Digital. Creative.
-            </span>
+            <a
+              href={`mailto:${contactEmail}`}
+              className="text-[14px] text-slate-400 hover:text-cyan-300 transition-colors"
+              title="Email Parvaaz"
+            >
+              {contactEmail}
+            </a>
           </div>
 
           {/* Right: Nav Links */}
