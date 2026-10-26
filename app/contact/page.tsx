@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { bookingUrl } from '@/data/site';
+import { bookingUrl, socialLinks } from '@/data/site';
 
 export default function ContactPage() {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -187,6 +187,29 @@ export default function ContactPage() {
                   <span>Transparent weekly sprint milestones</span>
                 </li>
               </ul>
+            </div>
+
+            <div className="rounded-3xl p-8 bg-[#090F1E]/50 border border-white/[0.08] backdrop-blur-sm">
+              <h4 className="text-sm font-bold uppercase tracking-wider text-slate-300 mb-2">
+                Follow Parvaaz
+              </h4>
+              <p className="text-xs text-slate-400 mb-5 leading-relaxed">
+                Watch behind-the-scenes engineering, AI system drops, and client campaign breakdowns.
+              </p>
+              <div className="grid grid-cols-2 gap-3">
+                {socialLinks.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between px-4 py-3 rounded-xl bg-white/[0.03] border border-white/10 hover:border-cyan-400/50 hover:bg-cyan-500/10 text-slate-300 hover:text-cyan-300 transition-all text-xs font-semibold group"
+                  >
+                    <span>{social.name}</span>
+                    <span className="text-slate-500 group-hover:text-cyan-300 group-hover:translate-x-0.5 transition-transform">↗</span>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
 

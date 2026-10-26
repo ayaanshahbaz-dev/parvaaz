@@ -41,6 +41,35 @@ export const bookingUrl = 'https://cal.com/TODO';
 // TODO: replace with your contact email
 export const contactEmail = 'TODO@parvaaz.com';
 
+export interface SocialLink {
+  name: string;
+  url: string;
+  icon: 'linkedin' | 'instagram' | 'youtube' | 'facebook';
+}
+
+export const socialLinks: SocialLink[] = [
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/parvaaz-digital-27878a421/',
+    icon: 'linkedin',
+  },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/parvaaz_official__/',
+    icon: 'instagram',
+  },
+  {
+    name: 'YouTube',
+    url: 'https://www.youtube.com/@IrisEyeAI',
+    icon: 'youtube',
+  },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/profile.php?id=61572118860851',
+    icon: 'facebook',
+  },
+];
+
 // Site numbers shown in the Numbers row on the homepage.
 // Set to null until verified real numbers are provided.
 export const stats: SiteStats = {
