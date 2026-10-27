@@ -38,6 +38,10 @@ export interface SiteStats {
 // TODO: replace with your booking URL (e.g. Cal.com or Calendly)
 export const bookingUrl = 'https://cal.com/TODO';
 
+export const brandName = 'Parvaaz';
+export const brandNameUpper = 'PARVAAZ';
+export const brandMotto = 'Rise • Grow • Succeed';
+
 export const contactEmail = 'parwaazcompany@gmail.com';
 
 export interface SocialLink {

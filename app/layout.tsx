@@ -14,14 +14,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://parvaaz.com'),
   title: {
-    default: 'Parvaaz — Creative AI & Digital Solutions',
+    default: 'Parvaaz — Creative AI & Digital Solutions | Rise • Grow • Succeed',
     template: '%s — Parvaaz',
   },
   description:
-    'Parvaaz combines AI, software, and creative growth services to help businesses work smarter and stand out.',
+    'Parvaaz combines AI, software, and creative growth services to help businesses work smarter and stand out. Rise, Grow, Succeed.',
   openGraph: {
-    title: 'Parvaaz — Creative AI & Digital Solutions',
-    description: 'Parvaaz combines AI, software, and creative growth services to help businesses work smarter and stand out.',
+    title: 'Parvaaz — Creative AI & Digital Solutions | Rise • Grow • Succeed',
+    description:
+      'Parvaaz combines AI, software, and creative growth services to help businesses work smarter and stand out. Rise, Grow, Succeed.',
     siteName: 'Parvaaz',
     type: 'website',
     locale: 'en_US',

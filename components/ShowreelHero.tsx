@@ -44,7 +44,7 @@ export default function ShowreelHero() {
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/50 border border-cyan-500/30 mb-6 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
               <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-cyan-300 select-none">
-                CREATIVE AI & DIGITAL SOLUTIONS
+                RISE • GROW • SUCCEED
               </span>
             </div>
 

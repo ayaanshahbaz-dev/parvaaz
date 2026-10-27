@@ -31,9 +31,14 @@ export default function Nav() {
           className="flex items-center gap-3 select-none group"
         >
           <ParvaazLogoMark className="w-8 h-8 transition-transform group-hover:scale-105" />
-          <span className="text-[20px] font-bold tracking-widest text-white uppercase group-hover:text-cyan-400 transition-colors duration-150">
-            PARVAAZ
-          </span>
+          <div className="flex flex-col">
+            <span className="text-[20px] font-bold tracking-widest text-white uppercase group-hover:text-cyan-400 transition-colors duration-150 leading-tight">
+              PARVAAZ
+            </span>
+            <span className="hidden sm:block text-[9px] font-semibold tracking-[0.28em] text-cyan-400 uppercase select-none">
+              Rise • Grow • Succeed
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -161,8 +166,11 @@ export default function Nav() {
             </div>
           </div>
 
-          <div className="text-[13px] text-slate-500">
-            © 2026 Parvaaz. All rights reserved.
+          <div className="flex flex-col gap-1 text-[13px] text-slate-500">
+            <span className="text-xs uppercase tracking-[0.2em] text-cyan-400 font-medium select-none">
+              Rise • Grow • Succeed
+            </span>
+            <span>© 2026 Parvaaz. All rights reserved.</span>
           </div>
         </div>
       )}

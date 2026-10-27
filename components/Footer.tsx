@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 pb-8 border-b border-white/[0.06]">
           
           {/* Left: Logo & Tagline */}
-          <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
             <Link
               href="/"
               className="flex items-center gap-3 select-none group"
@@ -53,6 +53,12 @@ export default function Footer() {
                 PARVAAZ
               </span>
             </Link>
+
+            <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-slate-600" />
+
+            <span className="text-xs uppercase tracking-[0.22em] text-cyan-400 font-medium select-none">
+              Rise • Grow • Succeed
+            </span>
 
             <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-slate-600" />
 

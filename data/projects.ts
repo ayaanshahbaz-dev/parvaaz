@@ -601,6 +601,176 @@ export const projects: Project[] = [
     order: 7,
   },
   {
+    slug: "marvelous-beauty",
+    title: "Marvelous Beauty – AI Commercial & Visual Ad Campaign",
+    resultLine: "High-impact commercial video ad and 21-asset photorealistic product styling series for multi-channel beauty marketing.",
+    category: "videos-ads",
+    industry: "E-commerce",
+    clientLabel: "Beauty & Cosmetics",
+    clientPublic: true,
+    thumbnail: "/projects/marvelous-beauty/thumbnail.jpg",
+    video: "/projects/marvelous-beauty/video.mp4",
+    images: [
+          "/projects/marvelous-beauty/image-1.jpg",
+          "/projects/marvelous-beauty/image-2.jpg",
+          "/projects/marvelous-beauty/image-3.jpg",
+          "/projects/marvelous-beauty/image-4.jpg",
+          "/projects/marvelous-beauty/image-5.jpg",
+          "/projects/marvelous-beauty/image-6.jpg",
+          "/projects/marvelous-beauty/image-7.jpg",
+          "/projects/marvelous-beauty/image-8.jpg",
+          "/projects/marvelous-beauty/image-9.jpg",
+          "/projects/marvelous-beauty/image-10.jpg",
+          "/projects/marvelous-beauty/image-11.jpg",
+          "/projects/marvelous-beauty/image-12.jpg",
+          "/projects/marvelous-beauty/image-13.jpg",
+          "/projects/marvelous-beauty/image-14.jpg",
+          "/projects/marvelous-beauty/image-15.jpg",
+          "/projects/marvelous-beauty/image-16.jpg",
+          "/projects/marvelous-beauty/image-17.jpg",
+          "/projects/marvelous-beauty/image-18.jpg",
+          "/projects/marvelous-beauty/image-19.jpg",
+          "/projects/marvelous-beauty/image-20.jpg",
+          "/projects/marvelous-beauty/image-21.jpg"
+    ],
+    challenge: "Cosmetics and skincare brands face intense competition on paid social channels, requiring scroll-stopping commercial video and photorealistic product styling that builds instant trust.",
+    solution: "Produced a commercial video spot combined with 21 high-definition product visual creatives featuring studio lighting, clean typography, and persuasive promotional layouts for Meta and TikTok ad campaigns.",
+    tools: ["AI Video Generation","Midjourney","Photoshop","Commercial Art Direction","FFmpeg"],
+    results: [
+          {
+                "value": "21+",
+                "label": "Commercial ad creatives"
+          },
+          {
+                "value": "100%",
+                "label": "AI photorealistic fidelity"
+          },
+          {
+                "value": "Multi-Channel",
+                "label": "Meta, TikTok & Display ready"
+          }
+    ],
+    year: "2026",
+    featured: true,
+    order: 19,
+  },
+  {
+    slug: "slim-homeopathic-drops",
+    title: "Slim Homeopathic Drops – Video Commercial Campaign",
+    resultLine: "Direct-response video commercial series with persuasive motion hooks and conversion-focused product visuals.",
+    category: "videos-ads",
+    industry: "Healthcare",
+    clientLabel: "Natural Wellness & Healthcare",
+    clientPublic: true,
+    thumbnail: "/projects/slim-homeopathic-drops/thumbnail.jpg",
+    video: "/projects/slim-homeopathic-drops/video.mp4",
+    images: [
+          "/projects/slim-homeopathic-drops/image-1.jpg",
+          "/projects/slim-homeopathic-drops/image-2.jpg",
+          "/projects/slim-homeopathic-drops/image-3.jpg"
+    ],
+    challenge: "Health and wellness products require credible, compliant, and captivating visual storytelling to overcome consumer hesitation and drive direct-response sales.",
+    solution: "Scripted and produced dual video commercials featuring clear problem-solution framing, benefit-driven motion graphics, and clean packaging renders optimized for mobile feed consumption.",
+    tools: ["AI Commercial Production","Motion Graphics","Direct Response Video","Audio Mastering"],
+    results: [
+          {
+                "value": "2",
+                "label": "Commercial video cuts"
+          },
+          {
+                "value": "Mobile-First",
+                "label": "Vertical 9:16 aspect ratio"
+          },
+          {
+                "value": "High Engagement",
+                "label": "Conversion-driven hooks"
+          }
+    ],
+    year: "2026",
+    featured: true,
+    order: 20,
+  },
+  {
+    slug: "team-eagle-global-marketing",
+    title: "Team Eagle Global Marketing – Executive Brand Campaign",
+    resultLine: "Comprehensive executive branding and corporate campaign visual assets for global marketing leadership.",
+    category: "videos-ads",
+    industry: "Content Creation",
+    clientLabel: "Global Marketing & Enterprise",
+    clientPublic: true,
+    thumbnail: "/projects/team-eagle-global-marketing/thumbnail.jpg",
+    video: null,
+    images: [
+          "/projects/team-eagle-global-marketing/image-1.jpg",
+          "/projects/team-eagle-global-marketing/image-2.jpg",
+          "/projects/team-eagle-global-marketing/image-3.jpg",
+          "/projects/team-eagle-global-marketing/image-4.jpg",
+          "/projects/team-eagle-global-marketing/image-5.jpg",
+          "/projects/team-eagle-global-marketing/image-6.jpg",
+          "/projects/team-eagle-global-marketing/image-7.jpg",
+          "/projects/team-eagle-global-marketing/image-8.jpg",
+          "/projects/team-eagle-global-marketing/image-9.jpg",
+          "/projects/team-eagle-global-marketing/image-10.jpg",
+          "/projects/team-eagle-global-marketing/image-11.jpg",
+          "/projects/team-eagle-global-marketing/image-12.jpg",
+          "/projects/team-eagle-global-marketing/image-13.jpg"
+    ],
+    challenge: "Creating an authoritative executive brand presence that establishes market leadership, institutional trust, and high-impact corporate presentation.",
+    solution: "Developed a complete 13-asset executive and corporate marketing visual suite featuring high-authority brand aesthetics, keynote styling, and corporate communication creative.",
+    tools: ["AI Creative Direction","Executive Branding","Photoshop","Corporate Visual Identity"],
+    results: [
+          {
+                "value": "13",
+                "label": "Executive campaign assets"
+          },
+          {
+                "value": "Global Scale",
+                "label": "Enterprise brand positioning"
+          },
+          {
+                "value": "Authority",
+                "label": "Executive leadership styling"
+          }
+    ],
+    year: "2026",
+    featured: true,
+    order: 21,
+  },
+  {
+    slug: "steadlife",
+    title: "Steadlife – Commercial Product Ad Creative",
+    resultLine: "Premium lifestyle health product creative designed for high-conversion performance marketing.",
+    category: "videos-ads",
+    industry: "Healthcare",
+    clientLabel: "Health & Lifestyle",
+    clientPublic: true,
+    thumbnail: "/projects/steadlife/thumbnail.jpg",
+    video: null,
+    images: [
+          "/projects/steadlife/image-1.jpg"
+    ],
+    challenge: "Presenting wellness products with clinical clarity while preserving a premium lifestyle consumer feel in paid advertising.",
+    solution: "Crafted clean commercial product ad imagery highlighting natural formulation, brand trust markers, and focused value propositions.",
+    tools: ["AI Image Generation","Photoshop","Brand Positioning","Commercial Design"],
+    results: [
+          {
+                "value": "Ultra-HD",
+                "label": "Commercial product render"
+          },
+          {
+                "value": "Brand Alignment",
+                "label": "Premium lifestyle palette"
+          },
+          {
+                "value": "Ad Ready",
+                "label": "Optimized for digital ad spend"
+          }
+    ],
+    year: "2026",
+    featured: false,
+    order: 22,
+  },
+  {
     slug: "video-ad-1",
     title: "Video Ad 1",
     resultLine: "High-impact commercial video creative produced with AI cinematography.",
